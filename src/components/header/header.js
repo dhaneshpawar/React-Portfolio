@@ -37,6 +37,7 @@ class Header extends React.Component
     return (
       <div className="header">
         <span> {this.state.value} </span>
+        <span> {this.props.headertitle } </span>
         <button onClick={(this.add.bind(this))}> + </button>
         <button onClick={(this.sub.bind(this))}> - </button>
         <button onClick={(this.mul.bind(this))}> * </button>
